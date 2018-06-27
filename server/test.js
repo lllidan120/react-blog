@@ -15,7 +15,7 @@ for (let index = 0; index < 3000; index++) {
 }
 
 function post(data) {
-    axios.post('http://47.106.121.134/api/user/register', Qs.stringify(data)).then(function (res) {
+    axios.post('http://localhost/api/user/register', Qs.stringify(data)).then(function (res) {
         console.log(res.data)
     }).catch(ex => {
         console.log('ex')
