@@ -1,9 +1,9 @@
 {
-  "presets": ["es2015","react","stage-0"],
+  "presets": ["es2015","react","stage-0","env"],
   "plugins": ["react-hot-loader/babel",["import", { "libraryName": "antd", "style": true }],"transform-runtime","transform-class-properties"],
   "env": {
     "production":{
-      "presets": ["react-optimize"]
+      "preset":["react-optimize"]
     }
   }
 }
