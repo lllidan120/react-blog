@@ -58,4 +58,5 @@ mongoose.connect(`mongodb://${config.dbHost}:${config.dbPort}/blog`, function (e
             console.info(`===> api server is running at ${config.apiHost}:${config.apiPort}`)
         }
     });
+    
 });
