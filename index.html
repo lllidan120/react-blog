@@ -15,7 +15,10 @@
         }
 
         .content {
+            padding-top: 1000px;
             width: 100%;
+ animation: change2 3s ease infinite normal;
+            ;
         }
 
         .img1 {
@@ -38,12 +41,14 @@
             bottom: 0;
             animation: change 0.1s linear infinite;
         }
- .img3 {
- animation: change 0.8s linear infinite;
- }
- .img4 {
- animation: change 0.3s linear infinite;
- }
+
+        .img3 {
+            animation: change 0.8s linear infinite;
+        }
+
+        .img4 {
+            animation: change 0.3s linear infinite;
+        }
 
         @-webkit-keyframes change {
             0% {
@@ -56,6 +61,29 @@
                 -webkit-transform: rotate(360deg) translateX(200px);
             }
         }
+
+        @-webkit-keyframes change2 {
+            0% {
+                -webkit-transform: rotate(0deg) translateX(-100px);
+            }
+            10% {
+
+            }
+ 20% {-webkit-transform: rotate(-150deg) translateX(140px); }
+ 30% { -webkit-transform: rotate(30deg) translateX(-140px);}
+ 40% {-webkit-transform: rotate(100deg) translateX(70px); }
+ 
+            50% {
+                -webkit-transform: rotate(180deg) translateX(-100px);
+            }
+ 60% {-webkit-transform: rotate(-180deg) translateX(300px); }
+ 70% {-webkit-transform: rotate(180deg) translateX(-30px); }
+ 80% {-webkit-transform: rotate(230deg) translateX(150px); }
+ 90% { -webkit-transform: rotate(20deg) translateX(-50px);}
+            100% {
+                -webkit-transform: rotate(360deg) translateX(200px);
+            }
+        }
     </style>
 </head>
 
@@ -63,8 +91,8 @@
     <div class="content">
         <img src="./static/b.png" alt="" class="img1">
         <img src="./static/a.png" alt="" class="img2">
-<img src="./static/a.png" alt="" class=" img2 img3">
-<img src="./static/a.png" alt="" class="img2 img4">
+        <img src="./static/a.png" alt="" class=" img2 img3">
+        <img src="./static/a.png" alt="" class="img2 img4">
     </div>
 </body>
 
