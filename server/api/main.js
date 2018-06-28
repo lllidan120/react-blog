@@ -68,4 +68,23 @@ router.get('/getArticleDetail', (req, res) => {
    });
 });
 
+const format = ({
+    resCode = 0,
+    msg = 'success',
+    data = {}
+}) => {
+    return {
+        resCode,
+        msg,
+        data
+    }
+}
+//添加版本
+router.post('/addVersion', function (req, res) {
+    console.log(req.query)
+    res.send(format({
+        data: 'success'
+    }))
+});
+
 module.exports = router;
