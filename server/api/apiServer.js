@@ -16,6 +16,14 @@ import session from 'express-session'
 const port = config.apiPort;
 
 const app = new Express();
+
+const log4js = require('../log-config')
+const logger = log4js.getLogger() //根据需要获取logger
+const errlogger = log4js.getLogger('err')
+const othlogger = log4js.getLogger('oth')
+
+log4js.useLogger(app, logger)
+
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser('express_react_cookie'));
 app.use(session({

@@ -81,7 +81,6 @@ const format = ({
 }
 //添加版本
 router.post('/addVersion', function (req, res) {
-    console.log(req.query)
     res.send(format({
         data: 'success'
     }))

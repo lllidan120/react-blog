@@ -1,0 +1,3 @@
+[2018-06-28T15:14:52.589] [INFO] default - [undefined GET /getArticles?pageNum=1&isPublish=true&tag= 304 74ms][http://127.0.0.1:3000/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36]
+[2018-06-28T15:14:52.617] [INFO] default - [undefined GET /getAllTags 304 89ms][http://127.0.0.1:3000/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36]
+[2018-06-28T15:14:52.795] [INFO] default - [undefined GET /user/userInfo 304 5ms][http://127.0.0.1:3000/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36]

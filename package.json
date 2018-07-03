@@ -52,7 +52,8 @@
     "remark": "^8.0.0",
     "remark-react": "^4.0.1",
     "serialize-javascript": "^1.4.0",
-    "serve-favicon": "^2.4.4"
+    "serve-favicon": "^2.4.4",
+    "log4js": "^2.5.3"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.4",
